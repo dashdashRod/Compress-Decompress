@@ -23,3 +23,7 @@ product of the compression is a file with smaller size compare to the orignal
 In this example the real video size is the sum of the frames created, this is due the nature of .mp4 files wich themselfs
 are heavely compressed. Thus the result comparassion must be done with relation to the sum of the frames (all .jpg which also suffers compression)
 and the final product which is the sum of thoses frames compacted.
+
+## Visualization of the process
+
+![267544561-5c916702-ca20-4aa7-9ee1-1493b7648e11](https://github.com/dashdashRod/Compress-Decompress/assets/39976286/29be40a1-cbdd-4ded-b940-f51e4f3126e6)
