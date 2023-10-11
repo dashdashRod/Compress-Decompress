@@ -7,9 +7,6 @@ from sys import argv
 def TakeElement(elemento,retiravel):
     return elemento[:elemento.find(retiravel)]
 
-def AddElement(elemento,adicionavel):
-    return elemento+adicionavel
-
 def FrameOrganizer(Path_Do_Arquivo):
     teste = listdir(Path_Do_Arquivo)
     lista = []
@@ -19,7 +16,7 @@ def FrameOrganizer(Path_Do_Arquivo):
     lista.sort()
     nova_lista = []
     for x in lista:
-        x = AddElement(Path_Do_Arquivo+"\\"+str(x),".jpg")
+        x = Path_Do_Arquivo+"\\"+str(x)+".jpg"
         nova_lista.append(x)
     return nova_lista
     
@@ -127,7 +124,7 @@ def MovieFunction(Path_Do_Arquivo,Nome_Do_MP4,FPS):
     lista.sort()
     nova_lista = []
     for x in lista:
-        x = AddElement(Path_Do_Arquivo+"\\"+str(x),".jpg")
+        x = Path_Do_Arquivo+"\\"+str(x)+".jpg"
         nova_lista.append(x)
     array_de_imagens = []
     #parte de salvamento do video
