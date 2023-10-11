@@ -27,3 +27,5 @@ and the final product which is the sum of thoses frames compacted.
 ## Visualization of the process
 
 ![267544561-5c916702-ca20-4aa7-9ee1-1493b7648e11](https://github.com/dashdashRod/Compress-Decompress/assets/39976286/29be40a1-cbdd-4ded-b940-f51e4f3126e6)
+
+which the letters refers to the type of frames which are not taken into consideration due the characteristics of this compression technic
